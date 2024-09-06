@@ -169,6 +169,9 @@ body {
     #img6 {
         width: 60%;
     }
+    #img10 {
+        width: 100%;
+    }
 
 
 
@@ -207,6 +210,10 @@ body {
     .content-contacts {
         flex-direction: column;
     }
+    .othersbox {
+        display: flex;
+        flex-direction: column;
+    }
 
 }
 
@@ -242,6 +249,7 @@ body {
     .content p {
         font-size: 1.25rem;
     }
+
 
     .content h1 {
         font-size: 2.5rem;

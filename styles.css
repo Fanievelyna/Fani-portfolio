@@ -1,0 +1,234 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #b7cbef;
+}
+
+/* Navigation Bar Styles */
+.navbar {
+    background-color: #4071ca;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px 0;
+}
+
+.navbar a {
+    color: #f2f2f2;
+    text-decoration: none;
+    padding: 14px 20px;
+    font-size: 16px;
+    transition: background-color 0.3s, color 0.3s;
+    border-radius: 20px;
+}
+
+.navbar a:hover {
+    background-color: #2445b2a7;
+    color: rgb(255, 255, 255);
+}
+
+/* Content Styles */
+.content, .content2, .content3, .content4, .content5 {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 20px;
+    background: rgb(255, 255, 255);
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: all 0.5s ease;
+}
+
+.content {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.content2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title-text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    transition: all 0.5s ease;
+}
+
+.content-image {
+    margin-right: 50px;
+    transition: all 0.5s ease;
+}
+
+.content-image-curved {
+    border-radius: 17px;
+    box-shadow: 0 4px 8px #141f44;
+    height: 350px;
+    transition: all 0.5s ease;
+}
+.content-text p {
+    font-weight: bolder;
+}
+.content-text h1 {
+    color: #12329d;
+}
+.content p {
+    font-size: 2rem;
+}
+
+.content h1 {
+    font-size: 4rem;
+}
+
+.image-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.image-container-traditional {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.image-container-traditional-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image-container img {
+    margin: 15px 0; /* Space between images */
+    max-width: 100%; /* Ensure images don't overflow the container */
+    height: auto; /* Maintain aspect ratio */
+    transition: all 0.5s ease;
+}
+
+.content-contacts {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+}
+
+.contacts-info {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+/* Responsive Styles */
+
+/* For tablets and smaller screens */
+@media screen and (max-width: 1024px) {
+    .navbar {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+
+    .navbar a {
+        padding: 12px;
+        font-size: 14px;
+    }
+
+    .content {
+        flex-direction: column;
+    }
+    
+    .content-image-curved {
+        margin-top: 40px;
+    }
+
+    .content-image {
+        margin-right: 0;
+        margin-bottom: 20px;
+    }
+
+    .content p {
+        font-size: 1.5rem;
+    }
+
+    .content h1 {
+        font-size: 3rem;
+    }
+
+    .content-contacts {
+        flex-direction: column;
+    }
+
+}
+
+/* For phones and very small screens */
+@media screen and (max-width: 768px) {
+    .navbar {
+        flex-direction: column;
+        align-items: stretch;
+    }
+
+    .navbar a {
+        width: 100%;
+        text-align: center;
+        padding: 12px;
+        font-size: 14px;
+    }
+
+    .content {
+        padding: 10px;
+    }
+
+    .content p {
+        font-size: 1.25rem;
+    }
+
+    .content h1 {
+        font-size: 2.5rem;
+    }
+
+    .content-contacts {
+        flex-direction: column;
+        align-items: center;
+    }
+    .content-image-curved {
+        height: 200px;
+    }
+
+}
+
+/* For extra-small screens */
+@media screen and (max-width: 480px) {
+    .navbar a {
+        font-size: 12px;
+        padding: 10px;
+    }
+
+    .content p {
+        font-size: 1rem;
+    }
+
+    .content h1 {
+        font-size: 2rem;
+    }
+
+    .contacts-info {
+        font-size: 0.875rem;
+    }
+}
+
+/* Hidden Class */
+.hidden {
+    display: none;
+}

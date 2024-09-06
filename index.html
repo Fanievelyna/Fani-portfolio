@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Navigation</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons/css/boxicons.min.css">
+</head>
+<body>
+    <!-- Nav Bar -->
+    <div class="navbar">
+        <a href="#" id="homeLink">Home</a>
+        <a href="#" id="worksLink">Illustration</a>
+        <a href="#" id="blenderLink">Blender</a>
+        <a href="#" id="traditionalLink">Traditional Art</a>
+        <a href="#" id="othersLink">Others</a>
+    </div>
+
+    <!-- Pages -->
+    <div id="homePage" class="content">
+        <div class="content-image">
+            <img src="images/profile.jpg" alt="Profile Image" class="content-image-curved">
+        </div>
+        <div class="content-text">
+            <h1>Hello!✨</h1>
+            <p>My name is Fani, full name Stephanie Evelyna Atmaja.</p>
+            <h4>I'm from Indonesia. I love to draw and create art. I like to experiment and push myself past my limits.</h4>
+            <h4>I hope I can inspire others through my artwork and leave an irreplaceable impression.</h4>
+            <h2>Languages: </h2>
+            <h4>- Indonesian: Native language</h4>
+            <h4>- English: Fluent, actively used (IELTS 8)</h4>
+            <h4>- Chinese: Intermediate, actively used (Passed HSK 4)</h4>
+
+            <div class="content-contacts">
+                <div class="contacts-info">
+                    <i class='bx bxl-whatsapp' style="font-size: 34px;"></i>
+                    <h3>+6281231887676</h3>
+                </div>
+                <div class="contacts-info">
+                    <i class='bx bx-envelope' style="font-size: 32px;"></i>
+                    <h3>fanievelynaa@gmail.com</h3>
+                </div>
+                <div class="contacts-info">
+                    <i class='bx bxl-instagram' style="font-size: 32px;"></i>
+                    <h3>@fanillatte</h3>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <div id="worksPage" class="content2 hidden">
+        <!-- <div class="title-text">Here are some of my works.</div> -->
+        <div class="image-container">
+            <img src="images/1.PNG" alt="Image 1" width="60%">
+            <img src="images/2.PNG" alt="Image 2" width="60%">
+            <img src="images/3.png" alt="Image 3" width="60%">
+            <img src="images/4.PNG" alt="Image 4" width="75%">
+            <!-- <img src="images/5.PNG" alt="Image 5" width="40%"> -->
+            <img src="images/6.jpg" alt="Image 6" width="40%">
+            <img src="images/7.PNG" alt="Image 7" width="40%">
+            <!-- <img src="images/8.jpg" alt="Image 8" width="40%"> -->
+            <img src="images/9.PNG" alt="Image 9" width="60%">
+            <img src="images/10.jpg" alt="Image 10" width="40%">
+            <img src="images/digi2.PNG" alt="Image 10" width="40%">
+            <img src="images/digi1.PNG" alt="Image 10" width="60%">
+            <img src="images/digi3.PNG" alt="Image 10" width="60%">
+
+        </div>
+    </div>
+
+    <div id="blenderPage" class="content3 hidden">
+        <div class="image-container">
+            <img src="images/blender1.png" alt="Image 1" width="40%">
+            <img src="images/blender2.png" alt="Image 2" width="75%">
+            <img src="images/blender3.png" alt="Image 3" width="75%">
+            <!-- <img src="images/blender4.png" alt="Image 4" width="75%"> -->
+        </div>
+    </div>
+
+    <div id="traditionalPage" class="content4 hidden">
+        <div class="image-container-traditional">
+
+            <div class="image-container-traditional-box">
+            <img src="images/tradi1.jpg" alt="Image 1" width="40%">
+            <img src="images/tradi2.jpg" alt="Image 2" width="40%">
+            </div>
+            <div class="image-container-traditional-box">
+            <img src="images/tradi3.jpg" alt="Image 3" width="40%">
+            <img src="images/tradi4.jpg" alt="Image 4" width="40%">
+            </div>
+            <div class="image-container-traditional-box">
+                <img src="images/tradi20.jpg" alt="Image 16" width="38%">
+                <img src="images/tradi22.jpg" alt="Image 15" width="43%">
+            </div>
+            <div class="image-container-traditional-box">
+                <img src="images/tradi13.jpg" alt="Image 13" width="40%">
+                <img src="images/tradi14.jpg" alt="Image 14" width="40%">
+                </div>
+            <div class="image-container-traditional-box">
+                <img src="images/tradi15.jpg" alt="Image 15" width="23%">
+                <img src="images/tradi16.jpg" alt="Image 16" width="55%">
+                </div>
+            <div class="image-container-traditional-box">
+            <img src="images/tradi6.jpg" alt="Image 5" width="40%">
+            <img src="images/tradi10.jpg" alt="Image 6" width="40%">
+            </div>
+            <div class="image-container-traditional-box">
+            <img src="images/tradi11.jpg" alt="Image 11" width="40%">
+            <img src="images/tradi12.jpg" alt="Image 12" width="40%">
+            </div>
+
+        </div>
+    </div>
+
+    <div id="othersPage" class="content5 hidden">
+        <div class="image-container-traditional">
+            <div class="image-container-traditional-box">
+                <img src="images/others1.jpg" alt="Image 1" width="40%">
+                <img src="images/others2.jpg" alt="Image 2" width="40%">
+            </div>
+            <div class="image-container-traditional-box">
+                <img src="images/others3.jpg" alt="Image 3" width="60%">
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+
+    <!-- Scroll Reveal -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+    
+</body>
+</html>

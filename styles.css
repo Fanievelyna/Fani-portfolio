@@ -145,6 +145,33 @@ body {
         font-size: 14px;
     }
 
+    .content, .content2, .content3, .content4, .content5 {
+        background: rgb(255, 255, 255);
+        border-radius: 8px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        transition: all 0.5s ease;
+    }
+    #img1 {
+        width: 400px;
+    }
+    #img2 {
+        width: 500px;
+    }
+    #img3 {
+        width: 50%;
+    }
+    #img4 {
+        width: 45%;
+    }
+    #img5 {
+        width: 40%;
+    }
+    #img6 {
+        width: 60%;
+    }
+
+
+
     .content {
         flex-direction: column;
     }
@@ -227,7 +254,6 @@ body {
     .content-image-curved {
         height: 200px;
     }
-
 }
 
 /* For extra-small screens */

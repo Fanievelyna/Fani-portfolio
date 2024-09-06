@@ -148,6 +148,17 @@ body {
     .content {
         flex-direction: column;
     }
+
+    .content-text h1{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .content-text h2{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
     
     .content-image-curved {
         margin-top: 40px;
@@ -190,6 +201,17 @@ body {
         padding: 10px;
     }
 
+    .content-text h1{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .content-text h2{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
     .content p {
         font-size: 1.25rem;
     }
@@ -217,6 +239,17 @@ body {
 
     .content p {
         font-size: 1rem;
+    }
+
+    .content-text h1{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .content-text h2{
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
 
     .content h1 {
